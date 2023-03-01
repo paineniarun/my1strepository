@@ -1,0 +1,9 @@
+Practical Procedure :--
+Step1: Open Ec2 -> Select your running server -> Actions -> Create Image
+Once Image created you can able to see under AMI’s list.
+Step2: Click on Launch configuration under Auto scaling group
+Click on Create Launch configuration
+Name: Give any name
+AMI: choose your AMI (Whatever created in Step1)
+Instance type : t2.micro
+
